@@ -1,0 +1,30 @@
+* , *::after , *::before {
+  box-sizing: border-box;
+}
+body {
+  background:linear-gradient(120deg , #8711c1, #7c1cc8, #7127ce, #6631d5, #5b3cdb, #5047e2, #4552e8, #3a5cef, #2f67f5, #2472fc);
+}
+.grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mycard{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(251, 251, 251);
+  padding: 1rem;
+  width: 200px;
+  margin:1rem;
+  border-radius: 25px;
+}
+.highlight {
+  border: 2px solid rgb(181, 25, 25);
+}
+.search {
+  width: 30%;
+  margin-inline : auto;
+  display: block;
+  height:50px;
+}
